@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color: #fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+
+.derm-bg {background-image: url(../img/DermCheck_bg.png);
+         background-size: cover;
+         background-position: center center;
+         background-repeat: no-repeat;
+         padding: 80px 0;}
+
+.derm-bg h2 {color: #38e3e3;
+             font-size: 58px;}
+
+.derm-bg p {color: #38e3e3;
+           font-size: 36px;}
+
+/*STORY*/
+
+.story-bg {background-color: #f6f6f6;}
+
+.story-bg h2 {color: #38e3e3;
+              font-size: 60px;}
+
+.story-bg p {color: #949494;
+             font-size: 26px;}
+
+/*STRATAGY*/
+
+.strat-bg h2 {color: #38e3e3;
+              font-size: 58px;}
+
+/*WORK*/
+
+.work-bg {background-image: url(../img/../img/DermCheck_bg1.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;}
+
+.work-bg h2 {color: #fff;
+             font-size: 60px;}
+
+.work-bg h4 {color: #fff;
+             font-size: 48px;
+             font-weight: 400;
+              margin-bottom: 0px;}
+
+@media(max-width:425px){
+	
+.derm-bg {padding: 40px 0;}
+	
+.derm-bg img {width: 150px;
+	              height: auto;}
+	
+.derm-bg h2 {font-size: 36px;}
+	
+.derm-bg p {font-size: 22px;}
+	
+.story-bg h2 {font-size: 42px;}
+	
+.story-bg p {font-size: 20px;}
+	
+.strat-bg h2 {font-size: 30px;}
+	
+.work-bg h2 {font-size: 32px;}
+	
+.work-bg h4 {font-size: 24px;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.derm-bg {padding: 60px 0;}
+	
+.derm-bg img {width: 180px;
+	              height: auto;}
+	
+.derm-bg h2 {font-size: 48px;}
+	
+.derm-bg h2 {font-size: 30px;}
+	
+.derm-bg p {font-size: 24px;}
+	
+.strat-bg h2 {font-size: 42px;}
+	
+.work-bg h2 {font-size: 48px;}
+	
+.work-bg h4 {font-size: 40px;}
+}

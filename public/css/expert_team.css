@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.team-bg {background-image: url(../img/Expert_Team_banner.png);
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          padding: 100px 0;}
+
+.team-bg h2 {font-size: 48px;
+             color: #fff;}
+
+.team-bg p {font-size: 28px;
+            color: #fff;}
+
+/*EXPERT TEAM*/
+
+.expert-team img {max-width:250px;
+                 height: auto;}
+
+.expert-team h2 {color: #20729c;
+                font-size: 48px;}
+
+.expert-team h6 {color: #a6a6a6;
+                font-size: 28px;
+                font-weight: 400;}
+
+.expert-team h4 {color:#20729c;
+                 font-weight: 500;}
+
+.expert-team p {color: #a6a6a6;
+                font-size: 20px;}
+
+@media(max-width:425px) {
+.team-bg h2 {font-size: 36px;
+		         font-weight: 400;}
+	
+.team-bg p {font-size: 18px;}
+	
+.team-bg {padding: 70px 0;}
+	
+.expert-team img {max-width:200px;}
+
+.expert-team h4 {font-size: 22px;}
+
+.expert-team p {font-size: 18px;
+                font-weight: 300;}
+	
+.expert-team h2 {font-size: 30px;
+                font-weight: 400;}
+
+.expert-team h6 {font-size: 18px;
+                font-weight: 300;}
+	
+}

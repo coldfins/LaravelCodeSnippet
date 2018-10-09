@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*TESTIMONIAL SLIDER*/
+
+.test-bg {background-image: url(../img/client_bg.png);
+          background-size: cover;
+          color: #fff;}
+
+.indi1 {width: 20px !important;
+        height: 20px !important;
+        border-radius: 50%;
+        background-color: #555;}
+
+.test p {margin-bottom: 100px;
+        font-size: 20px;}
+
+.test h6 {font-size: 24px;}
+
+
+@media(max-width:425px){
+	
+.test p {font-size: 18px;}
+
+.test h6 {font-size: 20px;}
+}

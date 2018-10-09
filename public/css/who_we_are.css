@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.story-bg {background-image: url(../img/who_we_are_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+.story-bg h2 {font-size: 62px;
+	         color: #fff;
+             font-weight: 700;}
+
+.story-bg p {color: #fff;
+             font-size: 26px;}
+
+.what-bg {background-color: #f4f4f4;}
+
+.what-bg h2 {font-size: 58px;
+             font-weight: 400;}
+
+.what-bg p {font-size: 28px;}
+
+.icon-bg img {width: 140px;
+              height: auto;}
+
+.icon-bg h2 {font-weight: 400;
+             color: #20729c;
+             font-size: 28px;}
+
+.icon-bg p {color: #727272;
+            font-size: 24px;}
+
+
+@media(max-width:425px){
+
+.story-bg h2 {font-size: 30px;}
+
+.story-bg p {font-size: 18px;}
+
+.what-bg h2 {font-size: 32px;}
+
+.what-bg p {font-size: 18px;}
+
+.icon-bg img {width: 80px;
+	          height: auto;}
+
+.icon-bg h2 {font-size: 22px;}
+
+.icon-bg p {font-size: 18px;}
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+
+.story-bg h2 {font-size: 52px;}
+
+.story-bg p {font-size: 22px;}
+
+.what-bg h2 {font-size: 42px;}
+
+.what-bg p {font-size: 22px;}
+
+.icon-bg img {width: 100px;
+	          height: auto;}
+
+.icon-bg h2 {font-size: 26px;}
+
+.icon-bg p {font-size: 20px;}
+}
+
+

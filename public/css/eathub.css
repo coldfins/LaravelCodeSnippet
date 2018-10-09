@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+
+.eathub-bg {background-image: url(../img/eathub_banner.png);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+             padding: 80px 0;}
+
+.eathub-bg h2 {font-size: 58px;
+               color: #fff;}
+
+.eathub-bg h3 {font-size: 34px;
+               color: #fff;}
+
+.eathub-bg p {font-size: 28px;
+              color: #fff;}
+
+/*APP STORY*/
+
+.appstory-bg {background-image: url(../img/eathub_app_story_banner.png);
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;}
+
+.appstory-bg h2 {color: #9f2f2b;
+                 font-size: 42px;}
+
+.appstory-bg h3 {color: #9f2f2b;
+                 font-size: 32px;}
+
+.appstory-bg p {color: #949494;
+               font-size: 24px;}
+
+/*ICONDESIGN*/
+
+.icondesign-bg {background-color: #9f2f2b;}
+
+.icondesign-bg h2 {font-size: 42px;
+                   color: #fff;}
+
+/*EATHUBAPP*/
+
+.eathubapp-bg {background-image: url(../img/eathub_mobile_bg.png);
+               background-size: cover;
+               background-position: center;
+               background-repeat: no-repeat;}
+
+.eathubapp-bg h2 {color: #9f2f2b;
+                  font-size: 62px;}
+
+/*FINAL INTERFACE*/
+
+.final-bg h2 {font-size: 42px;
+              color: #9f2f2b;}
+
+@media(max-width:425px){
+	
+.eathub-bg img {width: 150px;
+	                height: auto;}
+	
+.eathub-bg {padding: 40px 0;}
+	
+.eathub-bg h2 {font-size: 36px;}
+	
+.eathub-bg h3 {font-size: 24px;}
+	
+.eathub-bg p {font-size: 18px;}
+	
+.appstory-bg h2 {font-size: 30px;}
+	
+.appstory-bg h3 {font-size: 24px;}
+	
+.appstory-bg p {font-size: 18px;}
+	
+.icondesign-bg h2 {font-size: 32px;}
+	
+.eathubapp-bg h2 {font-size: 42px;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+	.eathub-bg img {width: 180px;
+	                height: auto;}
+	
+	.eathub-bg {padding: 60px 0;}
+	
+	.eathub-bg h2 {font-size: 42px;}
+	
+	.eathub-bg h3 {font-size: 28px;}
+	
+	.eathub-bg p {font-size: 22px;}
+	
+	.appstory-bg h2 {font-size: 34px;}
+	
+	.appstory-bg h3 {font-size:26px;}
+	
+	.appstory-bg p {font-size: 22px;}
+	
+	.eathubapp-bg h2 {font-size: 52px;}
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color: #fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+
+.privi-bg {background-image: url(../img/PriviPoint_bg.png);
+         background-size: cover;
+         background-position: center center;
+         background-repeat: no-repeat;
+         padding: 80px 0;}
+
+.privi-bg h2 {color: #fff;
+             font-size: 58px;}
+
+.privi-bg p {color: #fff;
+           font-size: 42px;}
+
+/*SERVICES*/
+
+.app-bg h2 {font-size: 64px;
+              color: #448ac5;}
+
+.app-bg h3 {font-size: 38px;
+            color: #448ac5;
+            font-weight: 400;}
+
+.app-bg p {color: #949494;
+             font-size: 28px;
+             font-weight: 400;}
+
+
+@media(max-width:425px){
+	
+.privi-bg img {width: 150px;
+	               height: auto;}
+	
+.privi-bg {padding: 40px 0;}
+	
+.privi-bg h2 {font-size: 36px;}
+	
+.privi-bg p {font-size: 22px;}
+	
+.privi-bg img {width: 200px;
+	               height: auto;}
+	
+.app-bg h2 {font-size: 36px;}
+	
+.app-bg h3 {font-size: 28px;}
+	
+.app-bg p {font-size: 22px;}
+	
+.icon-bg h2 {font-size: 30px;}
+	
+.system-bg h2 {font-size: 30px;}
+	
+.system-bg p {font-size: 20px;}
+	
+.services-bg h4 {font-size: 20px;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.privi-bg {padding: 60px 0;}
+	
+.privi-bg img {width: 180px;
+	               height: auto;}
+	
+.privi-bg h2 {font-size: 48px;}
+	
+.privi-bg p {font-size: 30px;}
+	
+.app-bg h2 {font-size: 52px;}
+	
+.app-bg h3 {font-size: 32px;}
+
+.app-bg p {font-size: 24px;}
+	
+.icon-bg h2 {font-size: 42px;}
+	
+.system-bg h2 {font-size: 42px;}
+	
+.system-bg p {font-size: 24px;}
+	
+.services-bg h4 {font-size: 30px;}
+}
+
+@media(min-width:1024px) and (max-width:1439px)
+{
+.story-bg h2 {font-size: 42px;}
+
+.story-bg p {font-size: 24px;}	
+}

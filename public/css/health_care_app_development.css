@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.health-bg {background-image: url(../img/Healthcare_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.health-bg h2 {font-size: 52px;
+             color: #fff;}
+
+.coldfin {background-color: #20729c;}
+
+.coldfin h2 {color: #fff;
+             font-size: 52px;
+             font-weight: 300 !important;}
+
+/*ABOUT*/
+
+.health-care-bg p {color: #727272;
+             font-size: 28px;}
+
+.mobile-bg {background-color: #f5f5f5;}
+
+.mobile-bg h2 {color: #20729c;
+              font-size: 42px;
+              font-weight: 400 !important;}
+
+.mobile-bg p {color: #727272;
+            font-size: 28px;}
+
+.healthcare-bg {background-color: #f26e70;}
+
+.petiant-bg {background-color: #4dc7ec;}
+
+.health-care-section-bg h2 {color: #fff;
+            font-weight: 400 !important;
+            font-size: 42px;}
+
+.health-care-section-bg p {color: #fff;
+                  margin-bottom: 0;
+                  font-size: 28px;}
+
+.solution-bg h2 {color: #20729c;
+                 font-size: 42px;}
+
+.solution-bg p {color: #727272;
+                font-size: 24px;}
+
+.health-services-bg {background-color: #20729c;}
+
+.health-services-bg h2 {color: #fff;
+                 font-weight: 400 !important;}
+
+@media(max-width:320px){
+
+.health-bg h2 {font-size: 32px;
+		     font-weight: 400;}
+
+.health-bg {padding: 50px 0;}
+
+.coldfin h2 {font-size: 24px;}
+
+.health-care-bg p {font-size: 18px;}
+
+.mobile-bg h2 {font-size: 26px;}
+
+.mobile-bg p {font-size: 18px;}
+
+.health-care-section-bg h2 {font-size: 26px;}
+
+.health-care-section-bg p {font-size: 20px;}
+
+.solution-bg h2 {font-size: 26px;}
+
+.solution-bg p {font-size: 18px;}
+
+.health-health-services-bg h2 {font-size: 24px;}
+
+}
+
+
+@media(min-width:375px) and (max-width:425px){
+
+.health-bg h2 {font-size: 38px;
+		     font-weight: 400;}
+
+.health-bg {padding: 70px 0;}
+
+.coldfin h2 {font-size: 24px;}
+
+.health-care-bg p {font-size: 18px;}
+
+.mobile-bg h2 {font-size: 26px;}
+
+.mobile-bg p {font-size: 18px;}
+
+.health-care-section-bg h2 {font-size: 26px;}
+
+.health-care-section-bg p {font-size: 20px;}
+
+.solution-bg h2 {font-size: 26px;}
+
+.solution-bg p {font-size: 18px;}
+
+.health-health-services-bg h2 {font-size: 24px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.health-bg h2 {font-size: 42px;}
+
+.health-bg {padding: 90px 0;}
+
+.coldfin h2 {font-size: 42px;}
+
+.health-care-bg p {font-size: 24px;}
+
+.mobile-bg h2 {font-size: 36px;}
+
+.mobile-bg p {font-size: 22px;}
+
+.health-care-section-bg h2 {font-size: 32px;}
+
+.health-care-section-bg p {font-size: 28px;}
+
+.solution-bg h2 {font-size: 32px;}
+
+.solution-bg p {font-size: 22px;}
+
+}

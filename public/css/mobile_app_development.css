@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p{font-weight: 400;}
+
+.mobileapp-bg {background-image: url(../img/Mobile_App_Development_banner.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding-top: 100px;
+          padding-bottom: 220px;}
+
+.mobileapp-bg h2 {font-size: 52px;
+                  color: #fff;}
+
+.mobile-app {background-color: #20729c;
+             color: #fff;}
+
+.mobile-app p {font-size: 22px;}
+
+.why-us h2 {font-size: 42px;}
+
+.why-us p {font-size: 24px;}
+
+.m-bg {background-color: #f5f5f5;}
+
+.m-bg h2 {color: #20729c;}
+
+.m-bg h3 {color: #26b573;}
+
+.m-bg p {font-size: 22px;}
+
+/*RECENT*/
+.recent-bg {overflow: hidden;
+            position: relative;}
+
+.recent-bga {position: absolute;
+             width: 100%;
+             height: 100%;
+             background-color: rgba(0, 0, 0, 0.8);
+             top: 0;
+             opacity: 0;
+             transition: all 0.5s;}
+
+.recent-bg ul {display: inline-block;
+               margin-top: 200px;}
+
+.recent-bga ul li {float: left;}
+
+.recent-bga a i {color: #fff;
+               font-size: 20px;
+               transition: all 0.5s;
+               width: 36px;
+               height: 36px;
+               background-color: transparent;
+               border: 1px solid #fff;
+               text-align: center;
+               line-height: 36px;
+               margin: 0 5px;}
+
+.center{position: absolute;
+    top: 50%;
+    left: 50%; 
+	text-align:center;
+    transform: translateX(-50%) translateY(-50%);}
+
+.recent-bga:hover {opacity: 1;}
+
+.recent-bg1 h2 {font-size: 36px;}
+
+.recent-bg1 img {transition: all 0.5s;}
+
+
+
+@media(max-width:425px){
+	
+.recent-bg1 h2 {font-size: 26px;}
+	
+.mobileapp-bg h2 {font-size: 32px;}
+	
+.mobileapp-bg {padding-top: 50px;
+               padding-bottom: 110px;}
+	
+.mobile-app h2 {font-size: 24px;}
+	
+.mobile-app p {font-size: 18px;}
+	
+.why-us h2 {font-size: 28px;}
+	
+.why-us p {font-size: 18px;}
+
+.m-bg h2 {font-size: 28px;}
+
+.m-bg h3 {font-size: 24px;}
+
+.m-bg p {font-size: 18px;}
+
+}

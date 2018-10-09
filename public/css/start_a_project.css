@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+
+/*START A PROJECT*/
+
+.start-bg {background-image: url(../img/start_project_bg.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+           padding: 100px 0;}
+
+.start-bg h2 {color: #fff;
+              font-size: 38px;}
+
+.start-bg p {color: #fff;
+             font-size: 32px;
+             font-weight: 300;}
+
+.start-bg h4 {color: #fff;
+              font-size: 32px;
+              font-weight: 400;}
+
+.start-bg h4 a {color: #fff;}
+
+/*FORM*/
+
+.form-bg {background-image: url(../img/start_project_bg1.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+           padding: 100px 0;}
+
+.custom1 {width: 93% !important;
+          margin-left: 5px !important;}
+
+.form-control1 {width: 95% !important;}
+
+.form-control2 {width: 90% !important;}
+
+.form-control3 {width: 98%;}
+
+.btn-primary2 {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  padding: 10px 80px;
+  font-size: 18px;
+  transition: all 0.5s;
+  border-radius: 25px;
+  border: 2px solid;	
+}
+
+.btn-primary2:hover {background-color: #20c997;
+                     border-color: #20c997;
+                     color: #fff;}
+
+
+@media(max-width:425px){
+	
+.start-bg {padding: 50px 0;}
+	
+.start-bg h2 {font-size: 28px;}
+	
+.start-bg p {font-size: 24px;}
+	
+.start-bg h4 {font-size: 24px;}
+	
+.form-control2 {width: 95% !important;}
+	
+.form-bg {padding: 50px 0;}
+}
+
+
+@media(min-width:426px) and (max-width:768px){
+	
+.start-bg {padding: 80px 0;}
+	
+.start-bg h2 {font-size: 32px;}
+	
+.start-bg p {font-size: 28px;}
+	
+.start-bg h4 {font-size: 28px;}
+}

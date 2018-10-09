@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.tech-bg {background-image: url(../img/Latest_Technology_banner.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 120px 0;}
+
+.tech-bg h2 {font-size: 48px;
+             color: #fff;}
+
+.tech-bg p {color:#fff;
+            font-size: 28px;}
+
+.coldfin h2 {font-size: 36px;}
+
+.coldfin p {font-size: 22px;}
+
+/*SALESFORCE*/
+
+.sale-bg {background-image: url(../img/Salesforce_bg.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;}
+
+.sale-bg h2 {color: #fff;
+             font-size: 46px;}
+
+.sale-bg h3 {color: #fff;
+             margin: 20px 0 15px 0;}
+
+.sale-bg p {color: #fff;
+            font-size: 24px;}
+
+/*HEROKU*/
+
+.heroku-bg {background-image: url(../img/Heroku_bg.png) !important;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+.robot-bg {background-image: url(../img/Robotic_Process_Automation_bg.png) !important;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+.microsoft-bg {background-image: url(../img/Microsoft_bg.png) !important;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+.ani-bg {background-image: url(../img/Android_OS_bg.png) !important;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+.bnd-bg {background-image: url(../img/Big_Data_bg.png) !important;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;}
+
+@media(max-width:425px){
+	
+.tech-bg h2 {font-size: 36px;
+		     font-weight: 400;}
+	
+.tech-bg p {font-size: 18px;}
+	
+.tech-bg {padding: 70px 0;}
+	
+.sale-bg h2 {font-size: 32px;}
+	
+.sale-bg h3 {font-size: 22px;}
+	
+.sale-bg p {font-size: 18px;}
+	
+.coldfin h2 {font-size: 20px;}
+	
+.coldfin p {font-size: 18px;}
+}

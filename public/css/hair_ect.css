@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.hair-bg {background-image: url(../img/hairect_bg.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          padding: 80px 0;}
+
+.hair-bg h2 {color: #fff;
+             font-size: 58px;}
+
+.hair-bg p {color: #fff;
+            font-size: 36px;}
+
+/*HAIR APP STORY*/
+
+.hair-app {background-color: #f6f6f6;}
+
+.hair-app h2 {color: #ec4563;
+           font-size: 58px;}
+
+.hair-app p {color: #949494;
+            font-size: 24px;}
+
+.hair-app h3 {color: #ec4563;
+              font-size: 42px;}
+
+.brand-bg h2 {color: #ec4563;
+              font-size: 58px;}
+
+.brand-bg hr {width: 35%;
+              height: 3px;
+              background-color: #a2a2a2;
+              display: inline-block;}
+
+/*ICON DESIGN*/
+
+.icon-bg {background-color: #ec4563;}
+
+.icon-bg h2 {color: #fff;
+              font-size: 58px;}
+
+.icon-bg h3 {color: #fff;
+              font-size: 58px;
+              font-weight: 300;}
+
+.icon-bg hr {width: 31%;
+              height: 3px;
+              background-color: #fff;
+              display: inline-block;}
+
+@media(max-width:425px){
+	
+.hair-bg {padding: 40px 0;}
+	
+.hair-bg h2 {font-size: 36px;}
+	
+.hair-bg p {font-size: 22px;}
+	
+.hair-app h2 {font-size: 36px;}
+	
+.hair-app p {font-size: 20px;}
+	
+.brand-bg h2 {font-size: 36px;}
+	
+.icon-bg h2 {font-size: 36px;}
+	
+.icon-bg h3 {font-size: 32px;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.hair-bg {padding: 60px 0;}
+
+.hair-bg h2 {font-size: 48px;}
+	
+.hair-bg p {font-size: 28px;}
+	
+.hair-app h2 {font-size: 48px;}
+	
+.hair-app p {font-size: 22px;}
+	
+.brand-bg h2 {font-size: 48px;}
+	
+.icon-bg h2 {font-size: 48px;}
+	
+.icon-bg h3 {font-size: 42px;}
+}

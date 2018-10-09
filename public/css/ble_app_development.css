@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500 !important;}
+
+p {font-weight: 400;}
+
+/*SLIDER*/
+
+.ble-bg {background-image: url(../img/BLE_app_development_bg.png);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+             padding: 150px 0;}
+
+.ble-bg h2 {font-size: 62px;
+                color: #fff;}
+
+.about-bg h2 {font-size: 52px;
+             color: #20729c;}
+
+.about-bg p {color: #727272;
+             font-size: 24px;
+             margin-bottom: 0;}
+
+.about-bg h3 {font-size: 24px;}
+
+.ble-section-bg {background-color: #f1f1f1;}
+
+.ble-section-bg h2 {color: #20729c;
+            font-size: 42px;
+            font-weight: 400 !important;}
+
+.ble-section-bg p {color: #727272;
+           font-size: 28px;}
+
+.icon-bg img {width: 130px;
+              height: auto;}
+
+.icon-bg h3 {color: #727272;
+             margin-top: 15px;
+             font-weight: 400 !important;
+             font-size: 26px;}
+
+.icon-bg h2 {color: #20729c;
+             font-weight: 400 !important;
+             font-size: 42px;}
+
+@media(max-width:425px){
+
+.ble-bg {padding: 50px 0;}
+
+.ble-bg h2 {font-size: 34px !important;}
+
+.about-bg h2 {font-size: 34px;}
+
+.about-bg p {font-size: 18px;}
+
+.about-bg img {width: 150px;
+	           height: auto;}
+
+.about-bg h3 {font-size: 24px;}
+
+.ble-section-bg h2 {font-size: 24px;}
+
+.ble-section-bg p {font-size: 18px;}
+
+.icon-bg h2 {font-size: 24px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.ble-bg h2 {font-size: 42px;}
+
+.about-bg h2 {font-size: 42px;}
+
+.about-bg p {font-size: 22px;}
+
+.about-bg img {width: 200px;
+	               height: auto;}
+
+.about-bg h3 {font-size: 26px;}
+
+.ble-section-bg h2 {font-size: 32px;}
+
+.ble-section-bg p {font-size: 24px;}
+}

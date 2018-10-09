@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.tourfame-bg {background-image: url(../img/tourfame_bg.png);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              padding: 80px 0;}
+
+.tourfame-bg h2 {font-size: 58px;
+                 color: #fff;}
+
+.tourfame-bg p {color: #fff;
+                font-size: 36px;}
+
+/*TOUR APP STORY*/
+
+.tour-appstory  h2 {color: #0097a7;
+                    font-size: 58px;}
+
+.tour-appstory h3 {color: #0097a7;
+	               font-size: 36px;}
+
+.tour-appstory p {color: #949494;
+                  font-size: 22px;}
+
+/*USER EXPERIANCE*/
+
+.userexp-bg {background-color: #0097a7;}
+
+/*STYLE GUIDE*/
+
+.style-bg h2 {color: #0097a7;
+              font-size: 48px;}
+
+.style-bg h4 {color: #949494;
+              font-size: 22px;
+              font-weight: 400;}
+
+.userexp-bg  h2 {color: #fff;
+                 font-size: 48px;
+                  font-weight: 500;}
+
+.userexp-bg hr {width: 30%;
+              height: 5px;
+              background-color: #fff;
+              border-top: none;}
+
+.user-marg {margin-top: 100px;}
+
+.userexp-marg {margin-top: -80px;}
+
+@media(max-width: 425px){
+	
+.tourfame-bg img {width: 150px;
+	                  height: auto;}
+	
+.tourfame-bg {padding: 40px 0;}
+	
+.tourfame-bg h2 {font-size: 36px;}
+	
+.tourfame-bg p {font-size: 22px;}
+	
+.tour-appstory h2 {font-size: 34px;}
+	
+.tour-appstory h3 {font-size: 22px;}
+	
+.tour-appstory p {font-size: 18px;}
+	
+.style-bg h2 {font-size: 36px;}
+	
+.style-bg h4 {font-size: 16px;}
+	
+.userexp-bg h2 {font-size: 36px;}
+	
+.user-marg {margin-top: 0;}
+
+.userexp-marg {margin-top: 0;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.tourfame-bg img {width: 180px;
+	                  height: auto;}
+	
+.tourfame-bg {padding: 60px 0;}
+	
+.tourfame-bg h2 {font-size: 42px;}
+
+.tourfame-bg p {font-size: 28px;}
+	
+.tour-appstory h2 {font-size: 42px;}
+	
+.tour-appstory h3 {font-size: 28px;}
+	
+.tour-appstory p {font-size: 20px;}
+	
+.userexp-bg h2 {font-size: 42px;}
+	
+.style-bg h2 {font-size: 38px;}
+	
+.user-marg {margin-top: 50px;}
+	
+.userexp-marg {margin-top: -40px;}
+}

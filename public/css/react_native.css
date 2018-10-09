@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.react-bg {background-image: url(../img/React-Native_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.react-bg h2 {font-size: 52px;
+             color: #fff;}
+
+/*ABOUT*/
+
+.about-bg h2 {color: #20729c;
+              font-size: 48px;
+              font-weight: 400;}
+
+.about-bg p {color: #727272;
+	         font-size: 28px;}
+
+/*WHY REACTNATIVE*/
+
+.why-bg {background-color: #f7f7f7;}
+
+.why-bg h2 {color: #26b573;
+            font-size: 48px;
+            font-weight: 400;}
+
+.why-bg p {color: #727272;
+           font-size: 24px;}
+
+/*SERVICES_BG*/
+
+.services-bg h2 {color: #20729c;
+                font-size: 62px;
+                font-weight: 400;}
+
+.services-bg h4 {color: #26b573;
+                 font-size: 24px;
+                 font-weight: 400;
+                 margin-bottom: 20px;}
+
+.services-bg p {color: #727272;
+                font-size: 18px;
+                margin-bottom: 0;}
+
+@media (max-width:320px){
+
+.react-bg h2 {font-size: 32px;
+		     font-weight: 400;}
+	
+.about-bg h2 {font-size: 28px;}
+
+.about-bg p {font-size: 18px;}
+	
+.why-bg h2 {font-size: 28px;}
+	
+.why-bg p {font-size: 20px;}
+	
+.why-bg img {width: 100px;
+	             height: auto;}
+	
+.services-bg h2 {font-size: 24px;}
+	
+.services-bg h4 {font-size: 20px;}
+
+.services-bg p {font-size: 18px;}
+}
+
+@media(min-width:375px) and (max-width:425px){
+	
+.react-bg h2 {font-size: 38px;
+		     font-weight: 400;}
+	
+.react-bg {padding: 70px 0;}
+	
+.about-bg h2 {font-size: 30px;}
+
+.about-bg p {font-size: 18px;}
+	
+.why-bg h2 {font-size: 32px;}
+	
+.why-bg p {font-size: 24px;}
+	
+.why-bg img {width: 120px;
+	             height: auto;}
+	
+.service-bg h2 {font-size: 28px !important;}
+	
+.service-bg h4 {font-size: 20px;}
+
+.service-bg p {font-size: 18px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.react-bg h2 {font-size: 42px;}
+	
+.react-bg {padding: 90px 0;}
+	
+.about-bg h2 {font-size: 36px;}
+
+.about-bg p {font-size: 22px;}	
+	
+.services-bg h4 {font-size: 26px;}
+	
+.services-bg h2 {font-size: 42px;}
+
+}

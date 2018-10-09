@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*FOOTER*/
+
+.footer-bg {background-color: #20729c;
+            color: #fff;}
+
+.footer-bg h2 a {font-size: 24px;
+               margin-bottom: 0;
+               color: #fff !important;}
+
+.footer-bg h6 {font-size: 18px;
+               margin-bottom: 0;}
+
+.footer-bg ul li {font-weight: 300;}
+
+.h2-hr {height: 2px;
+        width:25%;
+        background-color: #22eab8;
+        display: inline-block;
+        margin:8px 0;}
+
+@media(min-width:768px){
+
+.h2-hr1 {height: 2px;
+        width:10%;
+        background-color: #22eab8;
+        display: inline-block;
+        margin:8px 0;}
+}
+
+/*FOOTER2*/
+
+.footer2-bg {background-color: #555555;
+             color: #fff;}
+
+
+@media(max-width:425px){
+	
+.footer-bg h2 {font-size: 20px;}
+	
+.footer-bg h6 {font-size: 16px;}
+}
+
+@media(min-width:1024px) and (max-width:1399px) {
+	
+.footer-bg h2 {font-size: 20px;}
+}

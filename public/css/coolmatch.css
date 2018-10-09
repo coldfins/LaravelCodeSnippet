@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.coolmatch-bg {background-image: url(../img/coolmatch_bg.png);
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: center;
+              padding: 80px 0;}
+
+.coolmatch-bg h2 {font-size: 58px;
+                 color: #fff;}
+
+.coolmatch-bg p {color: #fff;
+                font-size: 36px;}
+
+/*TOUR APP STORY*/
+
+.cool-appstory  h2 {color: #db2c57;
+                    font-size: 58px;}
+
+.cool-appstory p {color: #949494;
+                  font-size: 24px;}
+
+/*USER EXPERIANCE*/
+
+.user-bg {background-color: #f3f3f3; }
+
+.user-bg h2 {color: #db2c57;
+              font-size: 48px;
+	          font-weight: 500;}
+
+/*STYLE GUIDE*/
+
+.colorpallate-bg h2 {color: #db2c57;
+              font-size: 48px;}
+
+.colorpallate-bg h4 {color: #949494;
+              font-size: 22px;
+              font-weight: 400;}
+
+.brand-bg {background-color: #7f7f7f;}
+
+.brand-bg h2 {font-size: 52px;
+              color: #fff;}
+
+.final-bg h2 {color: #db2c57;
+           font-size: 52px;}
+
+.coolapp-bg {background-color: #f3f3f3;}
+
+.coolapp-bg h2 {color: #db2c57;
+             font-size: 62px;}
+
+@media(max-width: 425px){
+	
+.coolmatch-bg img {width: 150px;
+	                   height: auto;}
+	
+.coolmatch-bg {padding: 40px 0;}
+	
+.coolmatch-bg h2 {font-size: 36px;}
+	
+.coolmatch-bg p {font-size: 22px;}
+	
+.cool-appstory  h2 {font-size: 36px;}
+
+.cool-appstory p {font-size: 20px;}
+
+.user-bg h2 {font-size: 36px;}	
+
+.colorpallate-bg h2 {font-size: 36px;}
+	
+.colorpallate-bg h4 {font-size: 16px;}
+	
+.brand-bg h2 {font-size: 36px;}
+	
+.final-bg h2 {font-size: 32px;}
+	
+.coolapp-bg h2 {font-size: 42px;}
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.coolmatch-bg img {width: 180px;
+	                   height: auto;}
+	
+.coolmatch-bg {padding: 60px 0;}
+	
+.coolmatch-bg h2 {font-size: 42px;}
+
+.coolmatch-bg p {font-size: 28px;}
+	
+.user-bg h2 {font-size: 48px;}
+	
+.cool-appstory  h2 {font-size: 48px;}
+
+.cool-appstory p {font-size: 22px;}
+	
+.colorpallate-bg h2 {font-size: 38px;}
+	
+.brand-bg h2 {font-size: 42px;}
+	
+.final-bg h2 {font-size: 42px;}
+	
+.coolapp-bg h2 {font-size: 52px;}
+}

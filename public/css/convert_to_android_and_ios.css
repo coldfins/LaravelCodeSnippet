@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.convert-bg {background-image: url(../img/Convert_Your_Website_into_iPhone_and_Android_Mobile_Apps_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.convert-bg h2 {font-size: 52px;
+             color: #fff;}
+
+/*ABOUT*/
+
+.web-to-device-bg p {color: #727272;
+             font-size: 24px;}
+
+.web-to-device-bg h4 {color: #26b573;
+              font-size: 30px;
+              font-weight: 400;}
+
+.web-to-device-bg h2 {color: #20729c;
+              font-size: 48px;}
+
+.about-hr {width: 60%;
+           height: 2px;
+           background-color: #26b573;}
+
+
+@media(max-width:425px){
+
+.convert-bg h2 {font-size: 38px;
+		     font-weight: 400;}
+
+.convert-bg {padding: 70px 0;}
+
+.web-to-device-bg h2 {font-size: 28px;}
+
+.web-to-device-bg h4 {font-size: 24px;}
+
+.web-to-device-bg p {font-size: 18px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.convert-bg h2 {font-size: 42px;}
+
+.convert-bg {padding: 90px 0;}
+
+.web-to-device-bg h2 {font-size: 32px;}
+
+.web-to-device-bg h4 {font-size: 28px;;}
+
+.web-to-device-bg p {font-size: 22px;}
+
+
+}

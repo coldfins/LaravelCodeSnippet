@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.security-bg {background-image: url(../img/Security_banner.png);
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          padding: 130px 0;}
+
+.security-bg h2 {font-size: 52px;
+                 color: #fff;}
+
+.security-bg p {font-size: 32px;
+                color: #fff;}
+
+/*DATA SECURITY*/
+
+.data-bg {background-color: #20729c;}
+
+.data-bg h2 {color: #fff;
+             font-size: 42px;}
+
+/*CONTENT*/
+
+.security-content h2 {color: #20729c;}
+
+.security-content p {font-size: 24px;
+                     color: #929292;
+                     padding-left: 30px;}
+
+@media(max-width:425px) {
+.security-bg h2 {font-size: 40px;
+		         font-weight: 400;}
+	
+.security-bg p {font-size: 20px;}
+	
+.security-bg {padding: 80px 0;}
+	
+.data-bg h2 {font-size: 22px;}
+	
+.security-content h2 {color: #20729c;
+	                  font-size: 24px;}
+
+.security-content p {font-size: 18px;
+                     font-weight: 400;
+	                 padding-left: 0px;}
+	
+}

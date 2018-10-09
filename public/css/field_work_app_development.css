@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+}
+
+ul {
+      padding-left: 0;
+}
+
+ul li {
+      list-style: none;
+}
+
+ul li a {
+      color: #fff;
+}
+
+ul li a:hover {
+      color: #fff !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      font-weight: 500;
+}
+
+p {
+      font-weight: 400;
+}
+
+.field-bg {
+      background-image: url(../img/Field_Work_bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 150px 0;
+}
+
+.field-bg h2 {
+      font-size: 52px;
+      color: #fff;
+}
+
+/*SERVICES*/
+
+.services h2 {
+      color: #20729c;
+      font-size: 52px;
+}
+
+.services h4 {
+      color: #20729c;
+      font-size: 30px;
+}
+
+.services p {
+      color: #727272;
+      font-size: 28px;
+}
+
+/*ICON*/
+
+.icon-bg h4 {
+      color: #20729c;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+
+.icon-bg p {
+      color: #a6a6a6;
+      font-size: 18px;
+}
+
+.icon-hr {
+      width: 30%;
+      height: 3px;
+      background-color: #26b573;
+      border: none;
+}
+
+.icon-bg img {
+      width: 250px;
+      height: auto;
+}
+
+@media(max-width:375px) {
+      .field-bg h2 {
+            font-size: 34px;
+      }
+      .field-bg {
+            padding: 50px 0;
+      }
+      .services h2 {
+            font-size: 24px;
+      }
+      .services h4 {
+            font-size: 20px;
+      }
+      .services p {
+            font-size: 18px;
+      }
+      .icon-bg img {
+            width: 180px;
+            height: auto;
+      }
+}
+
+@media(min-width:376px) and (max-width:425px) {
+      .field-bg h2 {
+            font-size: 36px;
+      }
+      .field-bg {
+            padding: 50px 0;
+      }
+      .services h2 {
+            font-size: 28px;
+      }
+      .services h4 {
+            font-size: 22px;
+      }
+      .services p {
+            font-size: 20px;
+      }
+}
+
+@media(min-width:426px) and (max-width:768px) {
+      .field-bg h2 {
+            font-size: 42px;
+      }
+      .field-bg {
+            padding: 90px 0;
+      }
+      .services h2 {
+            font-size: 42px;
+      }
+      .services h4 {
+            font-size: 26px;
+      }
+      .services p {
+            font-size: 24px;
+      }
+      .icon-bg h4 {
+            font-size: 20px;
+      }
+      .icon-bg p {
+            font-size: 18px;
+      }
+}

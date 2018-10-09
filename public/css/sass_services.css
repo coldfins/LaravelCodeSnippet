@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.sass-bg {background-image: url(../img/Saas_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.sass-bg h2 {font-size: 52px;
+	         color: #fff;}
+
+/*SERVICES*/
+
+.services-bg h2 {color: #20729c;
+                 font-size: 42px;}
+
+.services-bg h4 {color: #26b573;}
+
+.services-bg p {color: #727272;
+               font-size: 18px;}
+
+.line {width: 2px;
+       height: 250px;
+       background-color: #b7b7b7;
+       margin: 0 auto;}
+
+.cater-bg {background-image: url(../img/Saas_bg1.png);
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;}
+
+.cater-bg h2 {font-size: 52px;
+              font-weight: 400 !important;}
+
+.cater-bg p {font-size: 22px;}
+
+@media(max-width:425px){
+
+.sass-bg h2 {font-size: 32px;
+		     font-weight: 400;}
+
+.sass-bg {padding: 70px 0;}
+
+.line {height: 0px;
+       width: 0px;}
+
+.services-bg img {width: 100px;
+	                  height: auto;}
+
+.services-bg h2 {font-size: 28px;}
+
+.cater-bg h2 {font-size: 28px;}
+
+.cater-bg p {font-size: 18px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.sass-bg h2 {font-size: 42px;}
+
+.sass-bg {padding: 90px 0;}
+
+.services-bg img {width: 100px;
+	                  height: auto;}
+
+.services-bg h2 {font-size: 36px;}
+
+.services-bg h4 {font-size: 24px;}
+
+.services-bg p {font-size: 16px;}
+
+
+.line {width: 2px;
+       height: 200px;}
+
+}

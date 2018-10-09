@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.support-bg {background-image: url(../img/Full_Support_banner.png);
+          background-size: cover;
+          background-position: top;
+          background-repeat: no-repeat;
+          padding: 130px 0;}
+
+.support-bg h2 {font-size: 48px;
+                color: #fff;}
+
+.support-bg p {font-size: 28px;
+               color: #fff;}
+
+/*EXPERT TEAM*/
+
+.support h2 {color: #20729c;
+                font-size: 48px;}
+
+.support h6 {color: #a6a6a6;
+                font-size: 28px;}
+
+.support h4 {color:#20729c;
+             font-size: 32px;}
+
+.support p {color: #a6a6a6;
+            font-size: 22px;}
+
+@media(max-width:425px) {
+.support-bg h2 {font-size: 36px;
+		         font-weight: 400;}
+	
+.support-bg p {font-size: 18px;}
+	
+.support-bg {padding: 70px 0;}
+	
+.support h4 {font-size: 24px;}
+
+.support p {font-size: 18px;
+                font-weight: 300;}
+	
+.support h2 {font-size: 30px;
+                font-weight: 400;}
+
+.support h6 {font-size: 18px;
+                font-weight: 300;}
+	
+}

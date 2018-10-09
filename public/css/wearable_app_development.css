@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+/*SLIDER*/
+
+.wear-bg {background-image: url(../img/Wearable_App_Development_bg.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 150px 0;}
+
+.wear-bg h2 {color: #fff;
+             font-size: 52px;}
+
+/*ABOUT*/
+
+.about-bg {background-color: #20729c;}
+
+.about-bg h2 {color: #fff;
+              font-size: 58px;}
+
+.about-bg p {color: #fff;
+             font-size: 28px;}
+
+/*APP DEVELOPMENT*/
+
+.wearable-app-bg h2 {font-size: 48px;
+            font-weight: 400 !important;}
+
+.app-hr {width: 15%;
+         background-color: #20729c;
+         height: 3px;}
+
+.wearable-app-bg p {color: #727272;
+           font-size: 28px;
+           }
+
+/*DEVICES*/
+
+.devices-bg h2 {color: #20729c;
+                font-size: 52px;
+                font-weight: 400 !important;}
+
+.devices-bg p {color: #727272;
+               font-size: 28px;
+               font-weight: 300;}
+
+@media(min-width:426px) and (max-width:768px){
+
+	.wear-bg {padding: 90px 0;}
+
+	.wear-bg h2 {font-size: 42px;}
+
+	.about-bg h2 {font-size: 42px;}
+
+	.about-bg p {font-size: 24px;}
+
+	.wearable-app-bg h2 {font-size: 42px;}
+
+	.wearable-app-bg p {font-size: 24px;}
+
+	.devices-bg h2 {font-size: 38px;}
+
+	.devices-bg p {font-size: 24px;}
+}

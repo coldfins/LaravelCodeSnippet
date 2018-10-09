@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.apple-bg {background-image: url(../img/Apple_watch_app_Development_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.apple-bg h2 {font-size: 52px;
+             color: #fff;}
+
+.coldfin {background-color: #26b573;}
+
+.coldfin h2 {color: #fff;
+             font-size: 52px;
+             font-weight: 300;}
+
+/*ABOUT*/
+
+.apple-watch-bg p {color: #727272;
+             font-size: 28px;}
+
+.apple-watch-bg {background-image: url(../img/Apple_watch_app_Development_bg1.png);
+            background-size: cover;
+            background-repeat: no-repeat;}
+
+.apple-watch-bg h2 {color: #20729c;
+              font-size: 28px;}
+
+.mobile-bg p {color: #727272;
+            font-size: 28px;}
+
+
+@media(max-width:425px){
+
+.apple-bg h2 {font-size: 32px;
+		     font-weight: 400;}
+
+.apple-bg {padding: 70px 0;}
+
+.apple-watch-bg h2 {font-size: 30px;}
+
+.apple-watch-bg p {font-size: 18px;}
+
+.coldfin h2 {font-size: 24px;}
+
+.mobile-bg p {font-size: 18px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.apple-bg h2 {font-size: 42px;}
+
+.apple-bg {padding: 90px 0;}
+
+.coldfin h2 {font-size: 42px;}
+
+.apple-watch-bg h2 {font-size: 32px;}
+
+.apple-watch-bg p {font-size: 24px;}
+
+.mobile-bg p {font-size: 22px;}
+
+}

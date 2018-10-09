@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+label.error {
+      color: #f31c31;
+      font-weight: normal;
+}
+
+input.filed_error {
+      border: 1px solid red !important;
+}
+
+/* input.error {
+      border: 1px solid red !important;
+  } */
+
+.form-control.error {
+      border: 1px solid red !important;
+}

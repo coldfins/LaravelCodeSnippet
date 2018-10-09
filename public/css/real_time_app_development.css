@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.real-bg {background-image: url(../img/realtime_app_Development_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.real-bg h2 {font-size: 52px;
+             color: #fff;}
+
+/*ABOUT*/
+
+.re-about-bg {background-color: #20729c;}
+
+.re-about-bg h2 {color: #fff;
+              font-size: 52px;
+              font-weight: 400 !important;}
+
+.re-about-bg h4 {color: #fff;
+              font-size: 38px;
+              font-weight: 300 !important;}
+
+.re-about-bg p {color: #fff;
+            font-size: 24px;}
+
+/*REAL TIME*/
+
+.realtime-bg {background-image: url(../img/realtime_app_Development_bg1.png);
+          background-size: cover;
+          background-repeat: no-repeat;}
+
+.realtime-bg h2 {color: #fff;
+                 font-size: 48px;
+                 font-weight: 400 !important;}
+
+.realtime-bg ul li {font-size: 28px;
+                color: #fff;}
+
+.build-bg h2 {color: #20729c;
+              font-size: 28px;}
+
+.build-bg p {color: #20729c;
+             font-size: 24px;}
+
+.build-bg h3 {color: #20729c;
+              font-size: 38px;}
+
+@media(max-width:320px){
+
+.real-bg h2 {font-size: 32px;
+		     font-weight: 400 !important;}
+
+.real-bg {padding: 50px 0;}
+
+.re-about-bg h2 {font-size: 26px;}
+
+.re-about-bg h4 {font-size: 22px;}
+
+.re-about-bg p {font-size: 18px;}
+
+.realtime-bg h2 {font-size: 26px;}
+
+.realtime-bg p {font-size: 20px;}
+
+.build-bg h2 {font-size: 24px;}
+
+.build-bg p {font-size: 18px;}
+
+.build-bg h3 {font-size: 20px;}
+
+}
+
+
+
+@media(min-width:375px) and (max-width:425px){
+
+.real-bg h2 {font-size: 38px;
+		     font-weight: 400 !important;}
+
+.real-bg {padding: 70px 0;}
+
+.re-about-bg h2 {font-size: 26px;}
+
+.re-about-bg h4 {font-size: 22px;}
+
+.re-about-bg p {font-size: 18px;}
+
+.realtime-bg h2 {font-size: 26px;}
+
+.realtime-bg p {font-size: 20px;}
+
+.build-bg h2 {font-size: 24px;}
+
+.build-bg p {font-size: 18px;}
+
+.build-bg h3 {font-size: 22px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.real-bg h2 {font-size: 42px;}
+
+.real-bg {padding: 90px 0;}
+
+.re-about-bg h2 {font-size: 36px;}
+
+.re-about-bg h4 {font-size: 32px;}
+
+.re-about-bg p {font-size: 22px;}
+
+.realtime-bg h2 {font-size: 42px;}
+
+.realtime-bg p {font-size: 24px;}
+
+.build-bg h3 {font-size: 32px;}
+}

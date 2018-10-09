@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.team-bg {background-image: url(../img/Leadership_Team_bg.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          padding: 300px 0;}
+
+.team-bg h2 {color: #fff;
+             font-size: 52px;}
+
+.cliant-test h2 {font-size: 42px;
+                 color:#6a6a6a;}
+
+.cliant-test p {font-size: 22px;
+                color:#6a6a6a;}
+
+
+
+@media(max-width:425px){
+
+.cliant-test h2 {font-size: 32px;}
+
+.cliant-test h3 {font-size:28px;}
+	
+.cliant-test p {font-size: 18px;}
+	
+.team-bg {padding: 80px 0;}
+	
+.team-bg h2 {font-size: 32px;}
+	
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+.cliant-test h2 {font-size: 36px;}
+	
+.cliant-test p {font-size: 20px;}
+	
+.team-bg {padding: 120px;}
+	
+	.team-bg h2 {font-size: 36px;}
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.cliant-test h2 {font-size: 72px;
+          color:#6a6a6a;}
+
+.cliant-test h3 {font-size:68px;
+          font-weight: 300;
+          color: #6a6a6a;}
+
+.cliant-test p {font-size: 22px;}
+
+
+
+@media(max-width:425px){
+.cliant-test h2 {font-size: 32px;}
+
+.cliant-test h3 {font-size:28px;}
+	
+.cliant-test p {font-size: 18px;}
+	
+}
+
+@media(min-width:426px) and (max-width:768px){
+.cliant-test h2 {font-size: 52px;}
+
+.cliant-test h3 {font-size:48px;}
+	
+.cliant-test p {font-size: 20px;}
+}

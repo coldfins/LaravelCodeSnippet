@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body {font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;}
+
+ul {padding-left: 0;}
+
+ul li {list-style: none;}
+
+ul li a {color: #fff;}
+
+ul li a:hover {color:#fff !important;}
+
+h1,h2,h3,h4,h5,h6 {font-weight: 500;}
+
+p {font-weight: 400;}
+
+.realestate-bg {background-image: url(../img/Real-estate_app_development_bg.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         padding: 150px 0;}
+
+.realestate-bg h2 {font-size: 52px;
+             color: #fff;}
+
+
+/*ABOUT AND ICON*/
+
+.mobile-bg {padding: 50px 0;}
+
+.mobile-bg h2 {color: #20729c;
+               font-size: 52px;}
+
+.mobile-bg p {color: #26b573;
+              font-size: 28px;}
+
+.mobile-hr {width: 25%;
+            height: 3px;
+            background-color: #c8c8c8;
+            border: none;}
+
+.icon-bg {background-color: #20729c;}
+
+.icon-bg p {color: #fff;
+            font-size: 24px;
+            margin: 20px 0;}
+
+.app-bg {background-color: #26b573;}
+
+.app-bg h2 {color: #fff;
+            font-size: 52px;
+            font-weight: 400;}
+
+.app p {color: #727272;
+        font-size: 32px;}
+
+.estate-bg {background-image: url(../img/Real-estate_app_development_bg1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;}
+
+.estate-bg h2 {font-size: 42px;
+               font-weight: 400;}
+
+.estate-bg h4 {font-size: 30px;
+               font-weight: 400;
+               margin: 20px 0;}
+
+@media(max-width:375px){
+	
+.realestate-bg h2 {font-size: 34px;} 
+	
+.realestate-bg {padding: 50px 0;}
+	
+.mobile-bg h2 {font-size: 26px;}
+	
+.mobile-bg p {font-size: 18px;}
+	
+.mobile-bg {padding: 30px 0;}
+	
+.icon-bg img {width: 100px;
+	          height: auto;} 
+	
+.icon-bg p {font-size: 18px;}
+	
+.app-bg h2 {font-size: 22px;}
+	
+.app p {font-size: 18px;}
+	
+.estate-bg img {width:100px;
+	               height: auto;}
+	
+.estate-bg h2 {font-size: 26px;}
+	
+.estate-bg h4 {font-size: 20px;}
+
+}
+
+@media(min-width:376px) and (max-width:425px){
+	
+.realestate-bg h2 {font-size: 36px;} 
+	
+.realestate-bg {padding: 50px 0;}
+	
+.mobile-bg h2 {font-size: 28px;}
+	
+.mobile-bg p {font-size: 20px;}
+	
+.mobile-bg {padding: 30px 0;}
+	
+.icon-bg img {width: 120px;
+	          height: auto;} 
+	
+.icon-bg p {font-size: 22px;}
+	
+.app-bg h2 {font-size: 24px;}
+	
+.app p {font-size: 20px;}
+
+}
+
+@media(min-width:426px) and (max-width:768px){
+	
+.realestate-bg h2 {font-size: 42px;} 
+	
+.realestate-bg {padding: 90px 0;}
+	
+.mobile-bg h2 {font-size: 38px;}
+	
+.mobile-bg p {font-size: 26px;}
+	
+.mobile-bg {padding: 50px 0;}
+	
+.icon-bg img {width: 100px;
+	              height: auto;}
+	
+.icon-bg p {font-size: 20px;}
+	
+
+.app-bg h2 {font-size: 36px;}
+	
+.app p {font-size: 26px;}
+	
+.estate-bg img {width:130px;
+	               height: auto;}
+	
+.estate-bg h2 {font-size: 36px;}
+	
+.estate-bg h4 {font-size: 26px;}
+}
